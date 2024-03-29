@@ -18,15 +18,18 @@ Link to google
     border-radius: 10px;
     cursor: pointer;
   }
+  .comprar-button:hover {
+background-color: blue;
+  }
 </style>
 
 <button class="comprar-button">
-  comprar
+  COMPRAR
 </button>
 
 
 <button class="vender-button">
-Vender
+VENDER
 </button>
 <style>
   .vender-button {
@@ -37,11 +40,49 @@ Vender
     width: 105 ;
     border-radius: 10px;
     cursor: pointer; 
+    transition: opacity 0.15s
+    
   }
+  .vender-button:hover {
+    background-color: white;
+    color: rgb(25, 0, 255);
+  }
+
+
   </style>
 <p>
   agora mais um parágrafo para ver como estão a corrrer as coisas,
-  e se eu escrever um paragrafo muito maisor o que é que acontece.
+  e se eu escrever um paragrafo muito maior o que é que acontece?
+  
+</p>
+<p>
   Pois parece que posso escrever o que quiser que depois ajusta-se
   de acordo como aparece na janela
 </p>
+
+<button class="tweet-button">
+  Tweet
+</button>
+
+<p>
+  agora um texto para ver se consigo fazer tudo dos botões
+</p>
+
+<style>
+  .tweet-button {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 80px ;
+    border-radius: 18px;
+    cursor: pointer; 
+    font-weight: bold;
+    font-size: 17;
+    margin-left: 20;
+  }
+  .tweet-button:hover{
+    opacity: 0.5;
+  }
+  </style>
+
